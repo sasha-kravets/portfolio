@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.min.css">
+    <title>HomePage</title>
+</head>
+<body>
+     
+    
+    <div class="wrapper">
+        <header class="header">
+    <div class="header__container">
+        <div class="header__menu menu">
+            <div class="menu__icon icon-menu">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <nav class="menu__body">
+                <ul class="menu__list">
+                    <li><a href="#skills" class="menu__link">Skills</a></li>
+                    <li><a href="pages/Templates/index.html" class="menu__link">Templates</a></li>
+                    <li><a href="pages/Cheat_Sheet/index.html" class="menu__link">Cheat Sheet</a></li>
+                    <li><a href="" class="menu__link">Contacts</a></li>
+                </ul>
+            </nav>
+        </div>
+    </div>
+</header>
+
+        <main class="main">
+            
+            <section id="home" class="home fullscreen">
+                <div class="home__container">
+                    <div class="home__content content-home">
+                        <div class="content-home__image">
+                            <img src="img/home/myPhoto.jpg" alt="myPhoto">
+                        </div>
+                        <h1 class="content-home__title">Hello! I’m Alex</h1>
+                        <div class="content-home__text">This is a place where I demonstrate my skills.</div>
+                        <a href="https://drive.google.com/file/d/1O-4nooS6kXN8r7fnpLPkSeZdK8H_Aha-/view?usp=sharing" target="_blank" class="content-home__button rollover-button">
+                            <span class="roll-text">Resume</span>
+                            <span class="roll-text">Download</span>
+                        </a>
+                    </div>
+                    <div class="home__image">
+                        <div title="Not mine" class="home__image-wrapper">
+                            <img src="img/home/programmer4.png" alt="programmer">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="skills" class="skills">
+    <div class="skills__container">
+        <h2 class="skills__title">Skills</h2>
+
+        <div class="skills__content">
+            <div class="skills__slider slider">
+                <div class="slider__item">
+                    <a href="pages/Responsive_Design/index.html"><img src="img/skills/Responsive1.jpg" alt="Responsive1"></a>
+                </div>
+                <div class="slider__item">
+                    <a href="pages/template1/index.html"><img src="img/skills/template1.jpg" alt="template1"></a>
+                </div>
+                <div class="slider__item">
+                    <a href="pages/template2/index.html"><img src="img/skills/template2.jpg" alt="template2"></a>
+                </div>
+                <div class="slider__item">
+                    <a href="pages/template3/index.html"><img src="img/skills/template3.jpg" alt="template3"></a>
+                </div>
+
+                <!-- target="_blank" to make open in a new tab -->
+                
+            </div>
+            <div class="skills__column column-skills">
+                <div class="column-skills__image">
+                    <img src="img/skills/html_css_js.png" alt="html_css_js logos">
+                </div>
+                <div class="column-skills__text">
+                    <p>Here are pages from the very beginning of my HTML & CSS practice and some new ones.</p> <br>
+                    <p>Now I able to write a decent looking code using BEM, some semantics rules, add basic js features and use Gulp or Prepros to put everything together.</p> 
+                </div>
+            </div>
+        </div>
+
+        <div class="skills__photoshop">
+
+        </div>
+
+    </div>
+</section>
+
+            <!--BACK TO TOP BUTTON-->
+            <button class="m-backtotop" aria-hidden="true">
+                <div class="arrow">
+                    <div class="fa">
+                        <img src="img/up-arrow-icon.svg" alt="arrow-up">
+                    </div>
+                </div>
+            </button>
+
+
+            <section id="hobbies" class="hobbies">
+                
+            </section>
+
+        </main>
+
+        <footer class="footer">
+    <div class="footer__container">
+        <div class="footer__links">
+            <a id="footer-tg" class="footer__btn" href="https://t.me/callmesashka" target="_blank"><img src="img/footer/tg.svg" alt="Telegram logo"></a>
+            <a id="footer-gmail" class="footer__btn" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGMvTWfGTmrjVBbGfzkPRrmqtwlfczLldVjfNVMBbxMPvSdfKZLtKHjXxzWKhvJcHLmrKdM" target="_blank"><img src="img/footer/gmail.svg" alt="Gmail logo"></a>
+            <a id="footer-git" class="footer__btn" href="https://www.linkedin.com/in/sasha-kravets/" target="_blank"><img src="img/footer/linkedin.svg" alt="GitHub logo"></a>
+        </div>
+    </div>
+</footer>
+    </div>
+</body>
+
+<!-- Подключение jQuery -->
+<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<!-- Подключение js -->
+<script src="js/app.min.js"></script>
+<!-- Smooth Scroll -->
+</html>
+
+
+<!-- 
+    npm i - установка всіх пакетів з файла package.json
+    npm run dev - запуск в режимі розробника 
+-->
