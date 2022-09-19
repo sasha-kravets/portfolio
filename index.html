@@ -4,6 +4,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/style.min.css">
+
+    <link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="img/ico/favicon-16x16.png">
+    <link rel="manifest" href="img/ico/site.webmanifest">
+
     <title>HomePage</title>
 </head>
 <body>
@@ -22,8 +28,8 @@
                 <ul class="menu__list">
                     <li><a href="#skills" class="menu__link">Skills</a></li>
                     <li><a href="pages/Templates/index.html" class="menu__link">Templates</a></li>
-                    <li><a href="pages/Cheat_Sheet/index.html" class="menu__link">Cheat Sheet</a></li>
-                    <li><a href="" class="menu__link">Contacts</a></li>
+                    <li><a href="pages/Cheat_Sheet/index.html" class="menu__link">JS Projects</a></li>
+                    <li><a href="#contact" class="menu__link">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -86,10 +92,40 @@
             </div>
         </div>
 
-        <div class="skills__photoshop">
+        <div class="skills__design design-skills one">
 
+            <div class="design-skills__item">
+
+                <div class="design-skills__visible">
+                    <div class="design-skills__main-img flip-img">
+                        <div class="flip-img__items">
+                            <div class="flip-img__front"><img  src="img/skills/Admin1.jpg" alt="Badge"></div> 
+                            <div class="flip-img__back"><img src="img/skills/Admin1_back.jpg" alt="Badge back"></div>
+                        </div>
+                    </div>
+
+                    <h3 class="design-skills__title">Administrator badge design for a local business.</h3>
+                    <div class="design-skills__text">
+                        The first completed order in exchange for free admission. One of the most popular party venues with a pool, bar, stage and open-air movies in the city.
+                    </div>
+                </div>
+                
+                <div class="design-skills__arrow">
+                    <div class="arrow-design-skills"></div>
+                </div>
+
+                <div class="design-skills__hidden">
+                    <div class="design-skills__imgs">
+                        <div class="design-skills__img"><img src="img/skills/Admin1.jpg" alt="Admin1"></div>
+                        <div class="design-skills__img"><img src="img/skills/Admin2.jpg" alt="Admin1"></div>
+                    </div>
+                </div>
+            </div>
+
+            
+           
+            
         </div>
-
     </div>
 </section>
 
@@ -111,7 +147,7 @@
 
         <footer class="footer">
     <div class="footer__container">
-        <div class="footer__links">
+        <div id="contact" class="footer__links">
             <a id="footer-tg" class="footer__btn" href="https://t.me/callmesashka" target="_blank"><img src="img/footer/tg.svg" alt="Telegram logo"></a>
             <a id="footer-gmail" class="footer__btn" href="https://mail.google.com/mail/u/0/?tab=rm&ogbl#inbox?compose=GTvVlcSGMvTWfGTmrjVBbGfzkPRrmqtwlfczLldVjfNVMBbxMPvSdfKZLtKHjXxzWKhvJcHLmrKdM" target="_blank"><img src="img/footer/gmail.svg" alt="Gmail logo"></a>
             <a id="footer-git" class="footer__btn" href="https://www.linkedin.com/in/sasha-kravets/" target="_blank"><img src="img/footer/linkedin.svg" alt="GitHub logo"></a>
