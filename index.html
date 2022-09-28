@@ -3,7 +3,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.min.css">
+    <link rel="stylesheet" href="css/style.min.css?_v=20220928164435">
 
     <link rel="apple-touch-icon" sizes="180x180" href="img/ico/apple-touch-icon.png">
     <link rel="icon" type="image/png" sizes="32x32" href="img/ico/favicon-32x32.png">
@@ -27,8 +27,8 @@
             <nav class="menu__body">
                 <ul class="menu__list">
                     <li><a href="#skills" class="menu__link">Skills</a></li>
-                    <li><a href="pages/Templates/index.html" class="menu__link">Templates</a></li>
-                    <li><a href="pages/Cheat_Sheet/index.html" class="menu__link">JS Projects</a></li>
+                    <!-- <li><a href="pages/Templates/index.html" class="menu__link">Templates</a></li> -->
+                    <li><a href="pages/JS/index.html" class="menu__link">JS Projects</a></li>
                     <li><a href="#contact" class="menu__link">Contact</a></li>
                 </ul>
             </nav>
@@ -42,7 +42,7 @@
                 <div class="home__container">
                     <div class="home__content content-home">
                         <div class="content-home__image">
-                            <img src="img/home/myPhoto.jpg" alt="myPhoto">
+                            <picture><source srcset="img/home/myPhoto.webp" type="image/webp"><img src="img/home/myPhoto.jpg" alt="myPhoto"></picture>
                         </div>
                         <h1 class="content-home__title">Hello! I’m Alex</h1>
                         <div class="content-home__text">This is a place where I demonstrate my skills.</div>
@@ -53,7 +53,7 @@
                     </div>
                     <div class="home__image">
                         <div title="Not mine" class="home__image-wrapper">
-                            <img src="img/home/programmer4.png" alt="programmer">
+                            <picture><source srcset="img/home/programmer4.webp" type="image/webp"><img src="img/home/programmer4.png" alt="programmer"></picture>
                         </div>
                     </div>
                 </div>
@@ -66,24 +66,34 @@
         <div class="skills__content">
             <div class="skills__slider slider">
                 <div class="slider__item">
-                    <a href="pages/Responsive_Design/index.html"><img src="img/skills/Responsive1.jpg" alt="Responsive1"></a>
+                    <a href="pages/template6/index.html"><picture><source srcset="img/skills/template6.webp" type="image/webp"><img src="img/skills/template6.jpg" alt="template6"></picture></a>
                 </div>
                 <div class="slider__item">
-                    <a href="pages/template1/index.html"><img src="img/skills/template1.jpg" alt="template1"></a>
+                    <a href="pages/Responsive_Design/index.html"><picture><source srcset="img/skills/Responsive1.webp" type="image/webp"><img src="img/skills/Responsive1.jpg" alt="Responsive1"></picture></a>
                 </div>
                 <div class="slider__item">
-                    <a href="pages/template2/index.html"><img src="img/skills/template2.jpg" alt="template2"></a>
+                    <a href="pages/template4/index.html"><picture><source srcset="img/skills/template4.webp" type="image/webp"><img src="img/skills/template4.jpg" alt="template4"></picture></a>
                 </div>
                 <div class="slider__item">
-                    <a href="pages/template3/index.html"><img src="img/skills/template3.jpg" alt="template3"></a>
+                    <a href="pages/template5/index.html"><picture><source srcset="img/skills/template5.webp" type="image/webp"><img src="img/skills/template5.jpg" alt="template5"></picture></a>
                 </div>
+                <div class="slider__item">
+                    <a href="pages/template1/index.html"><picture><source srcset="img/skills/template1.webp" type="image/webp"><img src="img/skills/template1.jpg" alt="template1"></picture></a>
+                </div>
+                <div class="slider__item">
+                    <a href="pages/template2/index.html"><picture><source srcset="img/skills/template2.webp" type="image/webp"><img src="img/skills/template2.jpg" alt="template2"></picture></a>
+                </div>
+
+                <!-- <div class="slider__item">
+                    <a href="pages/template3/index.html"><picture><source srcset="img/skills/template3.webp" type="image/webp"><img src="img/skills/template3.jpg" alt="template3"></picture></a>
+                </div> -->
 
                 <!-- target="_blank" to make open in a new tab -->
                 
             </div>
             <div class="skills__column column-skills">
                 <div class="column-skills__image">
-                    <img src="img/skills/html_css_js.png" alt="html_css_js logos">
+                    <picture><source srcset="img/skills/html_css_js.webp" type="image/webp"><img src="img/skills/html_css_js.png" alt="html_css_js logos"></picture>
                 </div>
                 <div class="column-skills__text">
                     <p>Here are pages from the very beginning of my HTML & CSS practice and some new ones.</p> <br>
@@ -99,8 +109,8 @@
                 <div class="design-skills__visible">
                     <div class="design-skills__main-img flip-img">
                         <div class="flip-img__items">
-                            <div class="flip-img__front"><img  src="img/skills/Admin1.jpg" alt="Badge"></div> 
-                            <div class="flip-img__back"><img src="img/skills/Admin1_back.jpg" alt="Badge back"></div>
+                            <div class="flip-img__front"><picture><source srcset="img/skills/Admin1.webp" type="image/webp"><img  src="img/skills/Admin1.jpg" alt="Badge"></picture></div> 
+                            <div class="flip-img__back"><picture><source srcset="img/skills/Admin1_back.webp" type="image/webp"><img src="img/skills/Admin1_back.jpg" alt="Badge back"></picture></div>
                         </div>
                     </div>
 
@@ -116,8 +126,8 @@
 
                 <div class="design-skills__hidden">
                     <div class="design-skills__imgs">
-                        <div class="design-skills__img"><img src="img/skills/Admin1.jpg" alt="Admin1"></div>
-                        <div class="design-skills__img"><img src="img/skills/Admin2.jpg" alt="Admin1"></div>
+                        <div class="design-skills__img"><picture><source srcset="img/skills/Admin1.webp" type="image/webp"><img src="img/skills/Admin1.jpg" alt="Admin1"></picture></div>
+                        <div class="design-skills__img"><picture><source srcset="img/skills/Admin2.webp" type="image/webp"><img src="img/skills/Admin2.jpg" alt="Admin1"></picture></div>
                     </div>
                 </div>
             </div>
@@ -158,9 +168,9 @@
 </body>
 
 <!-- Подключение jQuery -->
-<script src="https://code.jquery.com/jquery-3.6.0.min.js"></script> 
+<script src="https://code.jquery.com/jquery-3.6.0.min.js?_v=20220928164435"></script> 
 <!-- Подключение js -->
-<script src="js/app.min.js"></script>
+<script src="js/app.min.js?_v=20220928164435"></script>
 <!-- Smooth Scroll -->
 </html>
 
