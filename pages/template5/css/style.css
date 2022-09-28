@@ -484,7 +484,7 @@ main {
   -webkit-box-flex: 0;
       -ms-flex: 0 0 90%;
           flex: 0 0 90%;
-  margin: 0 15px 0 0;
+  margin-right: 15px;
 }
 
 .works__items {
